@@ -1,0 +1,48 @@
+Key Insights:
+
+1. Overall Trends in Closing Prices:
+Ticker     BND     SPY    TSLA
+count  2474.00 2474.00 2474.00
+mean     70.09  310.25  111.44
+std       4.89  111.25  110.12
+min      62.64  157.33    9.58
+25%      66.31  214.82   17.07
+50%      68.89  275.81   25.04
+75%      73.81  402.30  216.87
+max      79.81  584.59  409.97
+
+2. Fluctuations in Daily Returns:
+Ticker     BND     SPY    TSLA
+count  2473.00 2473.00 2473.00
+mean      0.00    0.00    0.00
+std       0.00    0.01    0.04
+min      -0.05   -0.11   -0.21
+25%      -0.00   -0.00   -0.02
+50%       0.00    0.00    0.00
+75%       0.00    0.01    0.02
+max       0.04    0.09    0.22
+
+3. Volatility Analysis (20-Day Rolling Std):
+Ticker     BND     SPY    TSLA
+count  2454.00 2454.00 2454.00
+mean      0.00    0.01    0.03
+std       0.00    0.01    0.01
+min       0.00    0.00    0.01
+25%       0.00    0.01    0.02
+50%       0.00    0.01    0.03
+75%       0.00    0.01    0.04
+max       0.02    0.06    0.10
+
+4. Risk Metrics:
+Value at Risk (95% confidence):
+Ticker
+BND    -0.00
+SPY    -0.02
+TSLA   -0.05
+Name: 0.05, dtype: float64
+Sharpe Ratios:
+Ticker
+BND    0.10
+SPY    0.73
+TSLA   0.78
+dtype: float64
