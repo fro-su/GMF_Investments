@@ -1,3 +1,7 @@
 .venv_gmf
 financial_data_cleaned.csv
 documents
+lstm_model.h5
+lstm_model.keras
+sarima_model.pkl
+arima_model.pkl
